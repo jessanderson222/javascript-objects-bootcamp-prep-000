@@ -6,3 +6,8 @@ function updatePlaylist(playlist, artistName, songTitle) {
 updatePlaylist(playlist, {['Slowdive']: 'sugar'})
 updatePlaylist(playlist, {['My Bloody Valentine']: 'dunno'})
 updatePlaylist(playlist, {['Phil Ochs']: 'dunno'})
+
+function removeFromPlaylist(playlist, artistName) {
+  return delete playlist.artistName
+}
+removeFromPlaylist(playlist, 'beatles')
