@@ -5,4 +5,4 @@ function updatePlaylist(playlist, artistName, songTitle) {
 }
 updatePlaylist(playlist, {['Slowdive']: 'sugar'})
 updatePlaylist(playlist, {['My Bloody Valentine']: 'dunno'})
-updatePlaylist(playlist, {['Phil Ochs']: 'dunno lol'})
+updatePlaylist(playlist, {['Phil Ochs']: 'dunno'})
